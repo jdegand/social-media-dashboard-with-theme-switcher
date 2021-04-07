@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Social Media Dashboard with Theme Switcher</title>
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <div class="desktop-flex">
+    <div class="column">
+      <div class="social-media-dashboard">Social Media Dashboard</div>
+      <div class="gray-text">Total Followers: 23,004</div>
+   </div>
+   <hr> <!--doesn't show up on desktop ? -->
+    <div class="toggle-container">
+      <span class="dark-mode-text">Dark Mode</span>
+      <label for="checkbox" class="label">
+        <input type="checkbox" id="checkbox">
+        <span class="ball"></span>
+      </label>
+    </div>
+  </div>
+
+  <div class="cards-container">
+
+        <ul class="card facebook">
+          <li class="flex center"><img class="logo-icon" src="images/icon-facebook.svg" alt=""><span class="name"> @nathanf</span></li>
+          <li class="follower-count">1987</li>
+          <li class="followers-text">Followers</li>
+          <li class="flex center status-up"><img class="status-icon" src="images/icon-up.svg" alt=""><span> 12 Today</span></li>
+      </ul>
+
+      <ul class="card twitter">
+        <li class="flex center"><img class="logo-icon" src="images/icon-twitter.svg" alt=""><span class="name"> @nathanf</span></li>
+        <li class="follower-count">1044</li>
+        <li class="followers-text">Followers</li>
+        <li class="flex center status-up"><img class="status-icon" src="images/icon-up.svg" alt=""><span> 99 Today</span></li>
+    </ul>
+
+    <ul class="card instagram">
+      <li class="flex center"><img class="logo-icon" src="images/icon-instagram.svg" alt=""><span class="name"> @realnathanf</span></li>
+      <li class="follower-count">11k</li>
+      <li class="followers-text">Followers</li>
+      <li class="flex center status-up"><img class="status-icon" src="images/icon-up.svg" alt=""><span> 1099 Today</span></li>
+    </ul>
+
+    <ul class="card youtube">
+      <li class="flex center"><img class="logo-icon" src="images/icon-youtube.svg" alt=""><span class="name"> Nathan F.</span></li>
+      <li class="follower-count">8239</li>
+      <li class="followers-text">Subscribers</li>
+      <li class="flex center status-down"><img class="status-icon" src="images/icon-down.svg" alt=""><span> 144 Today</span></li>
+    </ul>
+
+  </div>
+
+  <div class="overview-today">
+    Overview - Today
+  </div>
+  <div class="breakdown-grid">
+
+    <div class="card2">
+      <div class="card2-page-views">Page Views</div>
+      <div><img class="logo-icon-2" src="images/icon-facebook.svg" alt=""></div>
+      <div class="card2-number">87</div>
+      <div class="gain status-up"><img class="status-icon" src="images/icon-up.svg" alt=""><span> 3%</span></div>
+  </div>
+
+    <div class="card2">
+      <div class="card2-page-views">Likes</div>
+      <div><img class="logo-icon-2" src="images/icon-facebook.svg" alt=""></div>
+      <div class="card2-number">52</div>
+      <div class="gain status-up"><img class="status-icon" src="images/icon-up.svg" alt=""><span> 2%</span></div>
+  </div>
+
+  <div class="card2">
+    <div class="card2-page-views">Likes</div>
+    <div><img class="logo-icon-2" src="images/icon-instagram.svg" alt=""></div>
+    <div class="card2-number">5462</div>
+    <div class="gain status-up"><img class="status-icon" src="images/icon-up.svg" alt=""><span> 2257%</span></div>
+  </div>
+
+  <div class="card2">
+    <div class="card2-page-views">Profile Views</div>
+    <div><img class="logo-icon-2" src="images/icon-instagram.svg" alt=""></div>
+    <div class="card2-number">52k</div>
+    <div class="gain status-up"><img class="status-icon" src="images/icon-up.svg" alt=""><span> 1375%</span></div>
+  </div>
+
+
+  <div class="card2">
+    <div class="card2-page-views">Retweets</div>
+    <div><img class="logo-icon-2" src="images/icon-twitter.svg" alt=""></div>
+    <div class="card2-number">117</div>
+    <div class="gain status-up"><img class="status-icon" src="images/icon-up.svg" alt=""><span> 303%</span></div>
+  </div>
+
+  <div class="card2">
+    <div class="card2-page-views">Likes</div>
+    <div><img class="logo-icon-2" src="images/icon-twitter.svg" alt=""></div>
+    <div class="card2-number">507</div>
+    <div class="gain status-up"><img class="status-icon" src="images/icon-up.svg" alt=""><span> 553%</span></div>
+  </div>
+
+  <div class="card2">
+    <div class="card2-page-views">Likes</div>
+    <div><img class="logo-icon-2" src="images/icon-youtube.svg" alt=""></div>
+    <div class="card2-number">107</div>
+    <div class="gain status-up"><img class="status-icon" src="images/icon-up.svg" alt=""><span> 19%</span></div>
+  </div>
+
+  <div class="card2">
+    <div class="card2-page-views">Total Views</div>
+    <div><img class="logo-icon-2" src="images/icon-youtube.svg" alt=""></div>
+    <div class="card2-number">1407</div>
+    <div class="gain status-up"><img class="status-icon" src="images/icon-up.svg" alt=""><span> 12%</span></div>
+  </div>
+
+  </div>
+
+</body>
+</html>
